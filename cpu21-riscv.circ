@@ -891,7 +891,6 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
     <wire from="(1200,1050)" to="(1220,1050)"/>
     <wire from="(750,680)" to="(950,680)"/>
     <wire from="(830,720)" to="(850,720)"/>
-    <wire from="(810,630)" to="(810,700)"/>
     <wire from="(490,940)" to="(500,940)"/>
     <wire from="(530,950)" to="(530,960)"/>
     <wire from="(530,950)" to="(550,950)"/>
@@ -973,7 +972,6 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
     <wire from="(600,290)" to="(700,290)"/>
     <wire from="(600,270)" to="(700,270)"/>
     <wire from="(370,490)" to="(390,490)"/>
-    <wire from="(790,630)" to="(810,630)"/>
     <wire from="(1260,330)" to="(1270,330)"/>
     <wire from="(1150,630)" to="(1150,640)"/>
     <wire from="(1150,630)" to="(1230,630)"/>
@@ -1005,6 +1003,9 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
     <wire from="(470,340)" to="(470,400)"/>
     <wire from="(240,400)" to="(470,400)"/>
     <wire from="(240,340)" to="(240,400)"/>
+    <wire from="(790,650)" to="(810,650)"/>
+    <wire from="(810,630)" to="(810,650)"/>
+    <wire from="(810,650)" to="(810,700)"/>
     <comp lib="0" loc="(470,140)" name="Probe">
       <a name="facing" val="west"/>
       <a name="radix" val="10unsigned"/>
@@ -2333,7 +2334,7 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
       <a name="labelfont" val="Dialog plain 10"/>
       <a name="labelcolor" val="#000000"/>
     </comp>
-    <comp lib="0" loc="(790,630)" name="Tunnel">
+    <comp lib="0" loc="(790,650)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="width" val="32"/>
       <a name="label" val="RDin"/>
