@@ -14,13 +14,13 @@ or s1,s1,s0
 add a0,zero,s1          
 addi a7,zero,34         # system call for print
 ecall    
-lui s1,  0xBA98
+lui s1,  0xBA980
 add a0,zero,s1          
 ecall    
-lui s1,  0x7654     
+lui s1,  0x76540
 add a0,zero,s1          
 ecall    
-lui s1,  0x3210     
+lui s1,  0x32100     
 add a0,zero,s1          
 ecall    
                            # print
